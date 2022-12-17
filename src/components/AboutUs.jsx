@@ -42,22 +42,32 @@ export default function AboutUs() {
           </div>
           <div className="col mb-4">
             <div className="card">
+              <img
+                src="Images/about2.jpg"
+                className="card-img-top"
+                alt="Develop Easily"
+              />
               <div className="card-body">
-                <h5 className="card-title">Developed Easily</h5>
+                <h5 className="card-title">Professional Coding</h5>
                 <p className="card-text">
-                  At SmartSolution we focus on modern minimal designs, easy to
-                  use & pleasing to the eyes.
+                  At SmartSolution we focus on modern coding design for better
+                  feature and understanding.
                 </p>
               </div>
             </div>
           </div>
           <div className="col mb-4">
             <div className="card">
+              <img
+                src="Images/about3.jpeg"
+                className="card-img-top"
+                alt="Develop Easily"
+              />
               <div className="card-body">
-                <h5 className="card-title">Developed Easily</h5>
+                <h5 className="card-title">Intern Available</h5>
                 <p className="card-text">
-                  At SmartSolution we focus on modern minimal designs, easy to
-                  use & pleasing to the eyes.
+                  At SmartSolution we focus on giving training to intern or
+                  junior developer.
                 </p>
               </div>
             </div>
