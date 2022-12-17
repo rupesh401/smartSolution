@@ -1,13 +1,12 @@
 import React from "react";
 import Footer from "./footer/Footer.jsx";
 
-
 export default function Services(props) {
   return (
     <section className="service_sec">
       <h1 className="service_sec_title">
         {" "}
-        Our<span id="buy">Services</span>
+        Our<span id="buy"> Services</span>
       </h1>
       <div className="container">
         <div class="row row-cols-1 row-cols-md-3">

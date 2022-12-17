@@ -9,7 +9,7 @@ export default function AboutUs() {
         <div className="row text-center mb-5">
           <h1 className="section_two_title">
             {" "}
-            Why Smart<span id="buy">Solution</span>??
+            Why Smart<span id="buy"> Solution</span>??
           </h1>
           <p className="section_two_para">
             In Kitchener, Ontario, Smart Solution is a dynamic new business
@@ -23,7 +23,7 @@ export default function AboutUs() {
             <button className="see_our_projects">See Our Projects</button>
           </div>
         </div>
-        <div className="row" id="card_list">
+        <div className="row card_list" id="card_list">
           <div className="col mb-4">
             <div className="card">
               <img

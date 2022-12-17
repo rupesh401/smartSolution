@@ -10,12 +10,21 @@
   margin-top: 2em !important;
 }
 
+.navbar-toggler-icon {
+  background-color: #FF8ADC;
+  padding: 1em;
+}
+
+.btn-close {
+  background-color: #FF8ADC !important;
+}
+
 #logo {
   font-size: 44px;
 }
 
 #buy {
-  color: #f100a9;
+  color: #FF8ADC;
 }
 
 a {
@@ -24,7 +33,7 @@ a {
 }
 
 a:hover {
-  color: #f100a9 !important;
+  color: #FF8ADC !important;
 }
 
 .list-nav {
@@ -32,7 +41,7 @@ a:hover {
 }
 
 #search_button {
-  background-color: #f100a9;
+  background-color: #FF8ADC;
   color: white;
   font-weight: bold;
 }
@@ -68,7 +77,7 @@ a:hover {
 
 #contact_us,
 #our_services {
-  border: 4px solid #f100a9;
+  border: 4px solid #FF8ADC;
   border-radius: 40px;
   padding: .5em;
   font-size: 22px;
@@ -93,7 +102,7 @@ a:hover {
 }
 
 .see_our_projects {
-  border: 4px solid #f100a9;
+  border: 4px solid #FF8ADC;
   border-radius: 40px;
   padding: .5em;
   font-size: 22px;
@@ -172,7 +181,7 @@ a:hover {
 }
 
 .card_middle {
-  color: #f100a9;
+  color: #FF8ADC;
   font-weight: bold;
   background-color: #222632;
 }
@@ -183,7 +192,7 @@ a:hover {
 }
 
 .buy2 {
-  color: #f100a9;
+  color: #FF8ADC;
 }
 
 .social {
@@ -197,7 +206,7 @@ a:hover {
 }
 
 .team_color {
-  color: #f100a9;
+  color: #FF8ADC;
 }
 
 .teams {
@@ -215,7 +224,7 @@ a:hover {
 
 .team-position {
   background-color: #222632;
-  color: #f100a9 !important;
+  color: #FF8ADC !important;
   font-weight: bold;
 }
 
@@ -250,12 +259,16 @@ a:hover {
 
   #contact_us,
   #our_services {
-    border: 2px solid #f100a9;
+    border: 2px solid #FF8ADC;
     padding: .5em;
     font-size: 19px;
   }
 
   #top_section_img {
     width: 400px;
+  }
+
+  .card_list {
+    display: block !important;
   }
 }
