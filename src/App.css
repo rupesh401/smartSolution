@@ -1,38 +1,261 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  background-color: #171a21;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.our_nav {
+  margin-top: 2em !important;
+}
+
+#logo {
+  font-size: 44px;
+}
+
+#buy {
+  color: #f100a9;
+}
+
+a {
+  color: white !important;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #f100a9 !important;
+}
+
+.list-nav {
+  float: right;
+}
+
+#search_button {
+  background-color: #f100a9;
+  color: white;
+  font-weight: bold;
+}
+
+.top_section {
+  margin-top: 4em !important;
+  margin-bottom: 1em;
+}
+
+.home_top_left {
+  margin-top: 4em !important;
+}
+
+.home_top_text {
+  margin-top: 10px;
+}
+
+.home_main_text {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.home_top_text p {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+#home_top_btns {
+  margin-top: 1em;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+#contact_us,
+#our_services {
+  border: 4px solid #f100a9;
+  border-radius: 40px;
+  padding: .5em;
+  font-size: 22px;
+  margin-right: 1em;
+}
+
+.section_two {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+.section_two_title {
+  font-size: 45px;
+  margin-bottom: .5em;
+  font-weight: bold;
+}
+
+.section_two_para {
+  font-size: 18px;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.see_our_projects {
+  border: 4px solid #f100a9;
+  border-radius: 40px;
+  padding: .5em;
+  font-size: 22px;
+  margin-right: 1em;
+}
+
+.card {
+  background-color: #222632 !important;
+  justify-content: space-between;
+}
+
+.card_title {
+  margin-bottom: 1em;
+  background-color: #222632;
+}
+
+.card_para {
+  background-color: #222632;
+}
+
+.contact_left {
+  padding: 1em;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact_title {
+  font-weight: bold;
+  font-size: 45px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.paraa {
+  font-size: 18px;
+  margin-bottom: 5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.address {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.address_icon {
+  padding: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.address_innfo {
+  display: block;
+  padding: .5em;
+  text-align: left;
+}
+
+.address_title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: .5em;
+}
+
+.service_sec {
+  margin-bottom: 5em;
+}
+
+.service_sec_title {
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.card-body {
+  background-color: #222632 !important;
+}
+
+.card-title {
+  margin-bottom: .3em;
+  background-color: #222632 !important;
+}
+
+.card_middle {
+  color: #f100a9;
+  font-weight: bold;
+  background-color: #222632;
+}
+
+.card-text {
+  font-size: 18px;
+  background-color: #222632;
+}
+
+.buy2 {
+  color: #f100a9;
+}
+
+.social {
+  display: flex !important;
+}
+
+.team_header {
+  text-align: center;
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
+.team_color {
+  color: #f100a9;
+}
+
+.teams {
+  background-color: #222632;
+}
+
+.social {
+  justify-content: space-around;
+  background-color: #222632;
+}
+
+.team-title {
+  background-color: #222632;
+}
+
+.team-position {
+  background-color: #222632;
+  color: #f100a9 !important;
+  font-weight: bold;
+}
+
+.social-link {
+  background-color: #222632;
+}
+
+
+
+
+
+@media screen and (max-device-width: 480px) {
+
+  .top_section {
+    margin-top: .5em !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .home_main_text {
+    font-size: 45px;
+  }
+
+  .home_top_text p {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  #home_top_btns {
+    margin-top: 1em;
+    justify-content: space-around;
+    justify-content: center;
+  }
+
+  #contact_us,
+  #our_services {
+    border: 2px solid #f100a9;
+    padding: .5em;
+    font-size: 19px;
+  }
+
+  #top_section_img {
+    width: 400px;
   }
 }
