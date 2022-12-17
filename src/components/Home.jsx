@@ -25,7 +25,12 @@ export default function Home(props) {
           </div>
         </div>
         <div className="col-lg-5 col-md-5 home_top_right">
-          <img id="top_section_img" src="Images/homeimage.png" width={530} />
+          <img
+            id="top_section_img"
+            src="Images/homeimage.png"
+            alt="Top_banner_image"
+            width={530}
+          />
         </div>
       </div>
       <AboutUs />

@@ -45,7 +45,7 @@ export default function AboutUs() {
               <img
                 src="Images/about2.jpg"
                 className="card-img-top"
-                alt="Develop Easily"
+                alt="Professional Coding"
               />
               <div className="card-body">
                 <h5 className="card-title">Professional Coding</h5>
@@ -61,7 +61,7 @@ export default function AboutUs() {
               <img
                 src="Images/about3.jpeg"
                 className="card-img-top"
-                alt="Develop Easily"
+                alt="Intern"
               />
               <div className="card-body">
                 <h5 className="card-title">Intern Available</h5>
