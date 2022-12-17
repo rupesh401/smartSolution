@@ -1,3 +1,5 @@
+// Group 4
+
 import React from "react";
 import {
   MDBFooter,
@@ -61,17 +63,17 @@ export default function App() {
               <h6 className="text-uppercase fw-bold mb-4">Social Links</h6>
               <div className="d-plex social">
                 <div className="facebook m-2">
-                  <Link to="www.facebook.com">
+                  <Link to="https://www.facebook.com/">
                     <FacebookIcon />
                   </Link>
                 </div>
                 <div className="instagram m-2">
-                  <Link to="www.instagram.com">
+                  <Link to="https://www.instagram.com/">
                     <InstagramIcon />
                   </Link>
                 </div>
                 <div className="twitter m-2">
-                  <Link to="www.twitter.com">
+                  <Link to="https://twitter.com/?lang=en">
                     <TwitterIcon />
                   </Link>
                 </div>
